@@ -18,6 +18,6 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver() {
 copyDrivers = drivers.slice(0);
-copyDrivers.push('Broom');
+copyDrivers.push(name);
 return copyDrivers;
 }
