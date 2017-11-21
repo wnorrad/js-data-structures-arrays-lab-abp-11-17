@@ -27,3 +27,8 @@ function prependDriver() {
   bonusDrivers.unshift('Arnold');
   return bonusDrivers;
 }
+
+function removeLastDriver() {
+  removedDriver = drivers.slice(0);
+  return removedDriver;
+}
