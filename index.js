@@ -23,5 +23,7 @@ return copyDrivers;
 }
 
 function prependDriver() {
-  
+  bonusDrivers = drivers.slice(0);
+  bonusDrivers.unshift('Butt');
+  return bonusDrivers;
 }
