@@ -36,6 +36,6 @@ function removeLastDriver() {
 
 function removeFirstDriver() {
   removedOne = drivers.slice(0);
-  removedOne.unshift();
+  removedOne.shift();
   return removedOne;
 }
